@@ -1,0 +1,23 @@
+@import '../../selae-tokens.css';
+
+.selae-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  border-radius: 0px; /* Rigidez total de la marca SELAE */
+  white-space: nowrap;
+}
+
+/* Tipos cromáticos semánticos */
+.selae-badge--info { background-color: #e0e0e0; color: #161616; }
+.selae-badge--success { background-color: #def2e6; color: #0d4f1d; }
+.selae-badge--error { background-color: #fbebeb; color: #740e14; }
+.selae-badge--warning { background-color: #fef3d6; color: #543b03; }
+
+/* Escala métrica simétrica */
+.selae-badge--xl { height: 32px; padding: 0 12px; font-size: 14px; }
+.selae-badge--l { height: 28px; padding: 0 10px; font-size: 13px; }
+.selae-badge--m { height: 24px; padding: 0 8px; font-size: 12px; }
+.selae-badge--xs { height: 20px; padding: 0 6px; font-size: 11px; }
