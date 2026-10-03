@@ -1,0 +1,3658 @@
+{
+    "meta": {
+      "formatVersion": "1.0.0",
+      "version": "1.0.0",
+      "name": "design-tokens-master",
+      "source": "design-tokens-master.json (W3C DTCG)",
+      "generator": "dtcg-to-figma-variables",
+      "exportedAt": "2026-10-03T12:00:00.000Z",
+      "colorFormat": "RGBA float 0-1",
+      "defaultMode": "Light Mode",
+      "counts": {
+        "collections": 2,
+        "variables": 239,
+        "Primitivos": 120,
+        "Semánticos": 119
+      }
+    },
+    "collections": [
+      {
+        "name": "Primitivos",
+        "modes": [
+          "Valor"
+        ],
+        "defaultMode": "Valor",
+        "hiddenFromPublishing": true,
+        "variables": [
+          {
+            "name": "color/white",
+            "type": "COLOR",
+            "description": "Blanco puro.",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-white)"
+            },
+            "valuesByMode": {
+              "Valor": "#ffffff"
+            }
+          },
+          {
+            "name": "color/black",
+            "type": "COLOR",
+            "description": "Negro puro.",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-black)"
+            },
+            "valuesByMode": {
+              "Valor": "#000000"
+            }
+          },
+          {
+            "name": "color/gray/10",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-10)"
+            },
+            "valuesByMode": {
+              "Valor": "#f4f4f4"
+            }
+          },
+          {
+            "name": "color/gray/20",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-20)"
+            },
+            "valuesByMode": {
+              "Valor": "#e0e0e0"
+            }
+          },
+          {
+            "name": "color/gray/30",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-30)"
+            },
+            "valuesByMode": {
+              "Valor": "#c6c6c6"
+            }
+          },
+          {
+            "name": "color/gray/40",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-40)"
+            },
+            "valuesByMode": {
+              "Valor": "#a8a8a8"
+            }
+          },
+          {
+            "name": "color/gray/50",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-50)"
+            },
+            "valuesByMode": {
+              "Valor": "#8d8d8d"
+            }
+          },
+          {
+            "name": "color/gray/60",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-60)"
+            },
+            "valuesByMode": {
+              "Valor": "#6f6f6f"
+            }
+          },
+          {
+            "name": "color/gray/70",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-70)"
+            },
+            "valuesByMode": {
+              "Valor": "#525252"
+            }
+          },
+          {
+            "name": "color/gray/80",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-80)"
+            },
+            "valuesByMode": {
+              "Valor": "#393939"
+            }
+          },
+          {
+            "name": "color/gray/90",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-90)"
+            },
+            "valuesByMode": {
+              "Valor": "#262626"
+            }
+          },
+          {
+            "name": "color/gray/100",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-100)"
+            },
+            "valuesByMode": {
+              "Valor": "#161616"
+            }
+          },
+          {
+            "name": "color/gray-state/10",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-state-10)"
+            },
+            "valuesByMode": {
+              "Valor": "#e8e8e8"
+            }
+          },
+          {
+            "name": "color/gray-state/20",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-state-20)"
+            },
+            "valuesByMode": {
+              "Valor": "#d1d1d1"
+            }
+          },
+          {
+            "name": "color/gray-state/70",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-state-70)"
+            },
+            "valuesByMode": {
+              "Valor": "#606060"
+            }
+          },
+          {
+            "name": "color/gray-state/80",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-state-80)"
+            },
+            "valuesByMode": {
+              "Valor": "#474747"
+            }
+          },
+          {
+            "name": "color/gray-state/90",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-state-90)"
+            },
+            "valuesByMode": {
+              "Valor": "#333333"
+            }
+          },
+          {
+            "name": "color/gray-state/100",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-gray-state-100)"
+            },
+            "valuesByMode": {
+              "Valor": "#292929"
+            }
+          },
+          {
+            "name": "color/blue/10",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-10)"
+            },
+            "valuesByMode": {
+              "Valor": "#edf5ff"
+            }
+          },
+          {
+            "name": "color/blue/20",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-20)"
+            },
+            "valuesByMode": {
+              "Valor": "#d0e2ff"
+            }
+          },
+          {
+            "name": "color/blue/30",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-30)"
+            },
+            "valuesByMode": {
+              "Valor": "#a6c8ff"
+            }
+          },
+          {
+            "name": "color/blue/40",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-40)"
+            },
+            "valuesByMode": {
+              "Valor": "#78a9ff"
+            }
+          },
+          {
+            "name": "color/blue/50",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-50)"
+            },
+            "valuesByMode": {
+              "Valor": "#4589ff"
+            }
+          },
+          {
+            "name": "color/blue/60",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-60)"
+            },
+            "valuesByMode": {
+              "Valor": "#0f62fe"
+            }
+          },
+          {
+            "name": "color/blue/70",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-70)"
+            },
+            "valuesByMode": {
+              "Valor": "#0043ce"
+            }
+          },
+          {
+            "name": "color/blue/80",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-80)"
+            },
+            "valuesByMode": {
+              "Valor": "#002d9c"
+            }
+          },
+          {
+            "name": "color/blue/90",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-90)"
+            },
+            "valuesByMode": {
+              "Valor": "#001d6c"
+            }
+          },
+          {
+            "name": "color/blue/100",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-blue-100)"
+            },
+            "valuesByMode": {
+              "Valor": "#001141"
+            }
+          },
+          {
+            "name": "color/purple/40",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-purple-40)"
+            },
+            "valuesByMode": {
+              "Valor": "#be95ff"
+            }
+          },
+          {
+            "name": "color/purple/60",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-purple-60)"
+            },
+            "valuesByMode": {
+              "Valor": "#8a3ffc"
+            }
+          },
+          {
+            "name": "color/red/10",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-red-10)"
+            },
+            "valuesByMode": {
+              "Valor": "#fff1f1"
+            }
+          },
+          {
+            "name": "color/red/40",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-red-40)"
+            },
+            "valuesByMode": {
+              "Valor": "#ff8389"
+            }
+          },
+          {
+            "name": "color/red/50",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-red-50)"
+            },
+            "valuesByMode": {
+              "Valor": "#fa4d56"
+            }
+          },
+          {
+            "name": "color/red/60",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-red-60)"
+            },
+            "valuesByMode": {
+              "Valor": "#da1e28"
+            }
+          },
+          {
+            "name": "color/red/70",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-red-70)"
+            },
+            "valuesByMode": {
+              "Valor": "#a2191f"
+            }
+          },
+          {
+            "name": "color/red/80",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-red-80)"
+            },
+            "valuesByMode": {
+              "Valor": "#750e13"
+            }
+          },
+          {
+            "name": "color/green/10",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-green-10)"
+            },
+            "valuesByMode": {
+              "Valor": "#defbe6"
+            }
+          },
+          {
+            "name": "color/green/40",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-green-40)"
+            },
+            "valuesByMode": {
+              "Valor": "#42be65"
+            }
+          },
+          {
+            "name": "color/green/50",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-green-50)"
+            },
+            "valuesByMode": {
+              "Valor": "#24a148"
+            }
+          },
+          {
+            "name": "color/green/60",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-green-60)"
+            },
+            "valuesByMode": {
+              "Valor": "#198038"
+            }
+          },
+          {
+            "name": "color/green/70",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-green-70)"
+            },
+            "valuesByMode": {
+              "Valor": "#0e6027"
+            }
+          },
+          {
+            "name": "color/yellow/10",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-yellow-10)"
+            },
+            "valuesByMode": {
+              "Valor": "#fcf4d6"
+            }
+          },
+          {
+            "name": "color/yellow/20",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-yellow-20)"
+            },
+            "valuesByMode": {
+              "Valor": "#fddc69"
+            }
+          },
+          {
+            "name": "color/yellow/30",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-yellow-30)"
+            },
+            "valuesByMode": {
+              "Valor": "#f1c21b"
+            }
+          },
+          {
+            "name": "color/orange/40",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-orange-40)"
+            },
+            "valuesByMode": {
+              "Valor": "#ff832b"
+            }
+          },
+          {
+            "name": "color/orange/60",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-orange-60)"
+            },
+            "valuesByMode": {
+              "Valor": "#ba4e00"
+            }
+          },
+          {
+            "name": "color/alpha/black-10",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-alpha-black-10)"
+            },
+            "valuesByMode": {
+              "Valor": "#0000001a"
+            }
+          },
+          {
+            "name": "color/alpha/black-20",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-alpha-black-20)"
+            },
+            "valuesByMode": {
+              "Valor": "#00000033"
+            }
+          },
+          {
+            "name": "color/alpha/black-30",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-alpha-black-30)"
+            },
+            "valuesByMode": {
+              "Valor": "#0000004d"
+            }
+          },
+          {
+            "name": "color/alpha/black-50",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-alpha-black-50)"
+            },
+            "valuesByMode": {
+              "Valor": "#00000080"
+            }
+          },
+          {
+            "name": "color/alpha/black-70",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-alpha-black-70)"
+            },
+            "valuesByMode": {
+              "Valor": "#000000b3"
+            }
+          },
+          {
+            "name": "color/alpha/white-10",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-alpha-white-10)"
+            },
+            "valuesByMode": {
+              "Valor": "#ffffff1a"
+            }
+          },
+          {
+            "name": "color/alpha/gray-100-50",
+            "type": "COLOR",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-alpha-gray-100-50)"
+            },
+            "valuesByMode": {
+              "Valor": "#16161680"
+            }
+          },
+          {
+            "name": "spacing/0",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-0)"
+            },
+            "valuesByMode": {
+              "Valor": 0
+            }
+          },
+          {
+            "name": "spacing/4",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-4)"
+            },
+            "valuesByMode": {
+              "Valor": 4
+            }
+          },
+          {
+            "name": "spacing/8",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-8)"
+            },
+            "valuesByMode": {
+              "Valor": 8
+            }
+          },
+          {
+            "name": "spacing/12",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-12)"
+            },
+            "valuesByMode": {
+              "Valor": 12
+            }
+          },
+          {
+            "name": "spacing/16",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-16)"
+            },
+            "valuesByMode": {
+              "Valor": 16
+            }
+          },
+          {
+            "name": "spacing/20",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-20)"
+            },
+            "valuesByMode": {
+              "Valor": 20
+            }
+          },
+          {
+            "name": "spacing/24",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-24)"
+            },
+            "valuesByMode": {
+              "Valor": 24
+            }
+          },
+          {
+            "name": "spacing/32",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-32)"
+            },
+            "valuesByMode": {
+              "Valor": 32
+            }
+          },
+          {
+            "name": "spacing/40",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-40)"
+            },
+            "valuesByMode": {
+              "Valor": 40
+            }
+          },
+          {
+            "name": "spacing/48",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-48)"
+            },
+            "valuesByMode": {
+              "Valor": 48
+            }
+          },
+          {
+            "name": "spacing/56",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-56)"
+            },
+            "valuesByMode": {
+              "Valor": 56
+            }
+          },
+          {
+            "name": "spacing/64",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-64)"
+            },
+            "valuesByMode": {
+              "Valor": 64
+            }
+          },
+          {
+            "name": "spacing/80",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-80)"
+            },
+            "valuesByMode": {
+              "Valor": 80
+            }
+          },
+          {
+            "name": "spacing/96",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-96)"
+            },
+            "valuesByMode": {
+              "Valor": 96
+            }
+          },
+          {
+            "name": "spacing/128",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-128)"
+            },
+            "valuesByMode": {
+              "Valor": 128
+            }
+          },
+          {
+            "name": "sizing/16",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-16)"
+            },
+            "valuesByMode": {
+              "Valor": 16
+            }
+          },
+          {
+            "name": "sizing/20",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-20)"
+            },
+            "valuesByMode": {
+              "Valor": 20
+            }
+          },
+          {
+            "name": "sizing/24",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-24)"
+            },
+            "valuesByMode": {
+              "Valor": 24
+            }
+          },
+          {
+            "name": "sizing/32",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-32)"
+            },
+            "valuesByMode": {
+              "Valor": 32
+            }
+          },
+          {
+            "name": "sizing/40",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-40)"
+            },
+            "valuesByMode": {
+              "Valor": 40
+            }
+          },
+          {
+            "name": "sizing/44",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-44)"
+            },
+            "valuesByMode": {
+              "Valor": 44
+            }
+          },
+          {
+            "name": "sizing/48",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-48)"
+            },
+            "valuesByMode": {
+              "Valor": 48
+            }
+          },
+          {
+            "name": "sizing/64",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-64)"
+            },
+            "valuesByMode": {
+              "Valor": 64
+            }
+          },
+          {
+            "name": "sizing/80",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-sizing-80)"
+            },
+            "valuesByMode": {
+              "Valor": 80
+            }
+          },
+          {
+            "name": "radius/none",
+            "type": "FLOAT",
+            "description": "Esquinas rectas (por defecto).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-radius-none)"
+            },
+            "valuesByMode": {
+              "Valor": 0
+            }
+          },
+          {
+            "name": "radius/sm",
+            "type": "FLOAT",
+            "description": "Radio mínimo para elementos pequeños o superpuestos.",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-radius-sm)"
+            },
+            "valuesByMode": {
+              "Valor": 2
+            }
+          },
+          {
+            "name": "radius/full",
+            "type": "FLOAT",
+            "description": "Solo círculos/avatares/indicadores.",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-radius-full)"
+            },
+            "valuesByMode": {
+              "Valor": 9999
+            }
+          },
+          {
+            "name": "border-width/none",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-border-width-none)"
+            },
+            "valuesByMode": {
+              "Valor": 0
+            }
+          },
+          {
+            "name": "border-width/thin",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-border-width-thin)"
+            },
+            "valuesByMode": {
+              "Valor": 1
+            }
+          },
+          {
+            "name": "border-width/medium",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-border-width-medium)"
+            },
+            "valuesByMode": {
+              "Valor": 2
+            }
+          },
+          {
+            "name": "border-width/thick",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-border-width-thick)"
+            },
+            "valuesByMode": {
+              "Valor": 4
+            }
+          },
+          {
+            "name": "font/size/12",
+            "type": "FLOAT",
+            "description": "Origen: 0.75rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-12)"
+            },
+            "valuesByMode": {
+              "Valor": 12
+            }
+          },
+          {
+            "name": "font/size/14",
+            "type": "FLOAT",
+            "description": "Origen: 0.875rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-14)"
+            },
+            "valuesByMode": {
+              "Valor": 14
+            }
+          },
+          {
+            "name": "font/size/16",
+            "type": "FLOAT",
+            "description": "Origen: 1rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-16)"
+            },
+            "valuesByMode": {
+              "Valor": 16
+            }
+          },
+          {
+            "name": "font/size/18",
+            "type": "FLOAT",
+            "description": "Origen: 1.125rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-18)"
+            },
+            "valuesByMode": {
+              "Valor": 18
+            }
+          },
+          {
+            "name": "font/size/20",
+            "type": "FLOAT",
+            "description": "Origen: 1.25rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-20)"
+            },
+            "valuesByMode": {
+              "Valor": 20
+            }
+          },
+          {
+            "name": "font/size/24",
+            "type": "FLOAT",
+            "description": "Origen: 1.5rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-24)"
+            },
+            "valuesByMode": {
+              "Valor": 24
+            }
+          },
+          {
+            "name": "font/size/28",
+            "type": "FLOAT",
+            "description": "Origen: 1.75rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-28)"
+            },
+            "valuesByMode": {
+              "Valor": 28
+            }
+          },
+          {
+            "name": "font/size/32",
+            "type": "FLOAT",
+            "description": "Origen: 2rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-32)"
+            },
+            "valuesByMode": {
+              "Valor": 32
+            }
+          },
+          {
+            "name": "font/size/36",
+            "type": "FLOAT",
+            "description": "Origen: 2.25rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-36)"
+            },
+            "valuesByMode": {
+              "Valor": 36
+            }
+          },
+          {
+            "name": "font/size/42",
+            "type": "FLOAT",
+            "description": "Origen: 2.625rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-42)"
+            },
+            "valuesByMode": {
+              "Valor": 42
+            }
+          },
+          {
+            "name": "font/size/48",
+            "type": "FLOAT",
+            "description": "Origen: 3rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-48)"
+            },
+            "valuesByMode": {
+              "Valor": 48
+            }
+          },
+          {
+            "name": "font/size/54",
+            "type": "FLOAT",
+            "description": "Origen: 3.375rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-54)"
+            },
+            "valuesByMode": {
+              "Valor": 54
+            }
+          },
+          {
+            "name": "font/size/60",
+            "type": "FLOAT",
+            "description": "Origen: 3.75rem (base 16px).",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-size-60)"
+            },
+            "valuesByMode": {
+              "Valor": 60
+            }
+          },
+          {
+            "name": "font/weight/light",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-weight-light)"
+            },
+            "valuesByMode": {
+              "Valor": 300
+            }
+          },
+          {
+            "name": "font/weight/regular",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-weight-regular)"
+            },
+            "valuesByMode": {
+              "Valor": 400
+            }
+          },
+          {
+            "name": "font/weight/medium",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-weight-medium)"
+            },
+            "valuesByMode": {
+              "Valor": 500
+            }
+          },
+          {
+            "name": "font/weight/semibold",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-weight-semibold)"
+            },
+            "valuesByMode": {
+              "Valor": 600
+            }
+          },
+          {
+            "name": "font/weight/bold",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_WEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-weight-bold)"
+            },
+            "valuesByMode": {
+              "Valor": 700
+            }
+          },
+          {
+            "name": "font/letter-spacing/none",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-letter-spacing-none)"
+            },
+            "valuesByMode": {
+              "Valor": 0
+            }
+          },
+          {
+            "name": "font/letter-spacing/body",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-letter-spacing-body)"
+            },
+            "valuesByMode": {
+              "Valor": 0.16
+            }
+          },
+          {
+            "name": "font/letter-spacing/label",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-letter-spacing-label)"
+            },
+            "valuesByMode": {
+              "Valor": 0.32
+            }
+          },
+          {
+            "name": "breakpoint/sm",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-breakpoint-sm)"
+            },
+            "valuesByMode": {
+              "Valor": 320
+            }
+          },
+          {
+            "name": "breakpoint/md",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-breakpoint-md)"
+            },
+            "valuesByMode": {
+              "Valor": 672
+            }
+          },
+          {
+            "name": "breakpoint/lg",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-breakpoint-lg)"
+            },
+            "valuesByMode": {
+              "Valor": 1056
+            }
+          },
+          {
+            "name": "breakpoint/xlg",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-breakpoint-xlg)"
+            },
+            "valuesByMode": {
+              "Valor": 1312
+            }
+          },
+          {
+            "name": "breakpoint/max",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-breakpoint-max)"
+            },
+            "valuesByMode": {
+              "Valor": 1584
+            }
+          },
+          {
+            "name": "z-index/base",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-base)"
+            },
+            "valuesByMode": {
+              "Valor": 0
+            }
+          },
+          {
+            "name": "z-index/footer",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-footer)"
+            },
+            "valuesByMode": {
+              "Valor": 5000
+            }
+          },
+          {
+            "name": "z-index/header",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-header)"
+            },
+            "valuesByMode": {
+              "Valor": 6000
+            }
+          },
+          {
+            "name": "z-index/dropdown",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-dropdown)"
+            },
+            "valuesByMode": {
+              "Valor": 7000
+            }
+          },
+          {
+            "name": "z-index/overlay",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-overlay)"
+            },
+            "valuesByMode": {
+              "Valor": 8000
+            }
+          },
+          {
+            "name": "z-index/modal",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-modal)"
+            },
+            "valuesByMode": {
+              "Valor": 9000
+            }
+          },
+          {
+            "name": "z-index/toast",
+            "type": "FLOAT",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-toast)"
+            },
+            "valuesByMode": {
+              "Valor": 9500
+            }
+          },
+          {
+            "name": "font/family/sans",
+            "type": "STRING",
+            "description": "Familia principal de UI.",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_FAMILY"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-family-sans)"
+            },
+            "valuesByMode": {
+              "Valor": "IBM Plex Sans"
+            }
+          },
+          {
+            "name": "font/family/mono",
+            "type": "STRING",
+            "description": "Código y datos tabulares.",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_FAMILY"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-family-mono)"
+            },
+            "valuesByMode": {
+              "Valor": "IBM Plex Mono"
+            }
+          },
+          {
+            "name": "font/family/serif",
+            "type": "STRING",
+            "description": "Contenido editorial.",
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "FONT_FAMILY"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-font-family-serif)"
+            },
+            "valuesByMode": {
+              "Valor": "IBM Plex Serif"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Semánticos",
+        "modes": [
+          "Light Mode",
+          "Dark Mode"
+        ],
+        "defaultMode": "Light Mode",
+        "hiddenFromPublishing": false,
+        "variables": [
+          {
+            "name": "color/background/default",
+            "type": "COLOR",
+            "description": "Superficie base de la aplicación.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-background-default)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/gray/100}"
+            }
+          },
+          {
+            "name": "color/background/inverse",
+            "type": "COLOR",
+            "description": "Superficie invertida (tooltips, toasts, barras de acción).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-background-inverse)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/100}",
+              "Dark Mode": "{Primitivos/color/gray/10}"
+            }
+          },
+          {
+            "name": "color/background/hover",
+            "type": "COLOR",
+            "description": "Hover sobre la superficie base.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-background-hover)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray-state/10}",
+              "Dark Mode": "{Primitivos/color/gray-state/100}"
+            }
+          },
+          {
+            "name": "color/background/active",
+            "type": "COLOR",
+            "description": "Estado activo/pressed sobre la superficie base.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-background-active)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/30}",
+              "Dark Mode": "{Primitivos/color/gray/80}"
+            }
+          },
+          {
+            "name": "color/background/selected",
+            "type": "COLOR",
+            "description": "Elemento seleccionado sobre la superficie base.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-background-selected)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/20}",
+              "Dark Mode": "{Primitivos/color/gray/80}"
+            }
+          },
+          {
+            "name": "color/background/brand",
+            "type": "COLOR",
+            "description": "Superficie de marca (cabeceras, banners).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-background-brand)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/60}",
+              "Dark Mode": "{Primitivos/color/blue/60}"
+            }
+          },
+          {
+            "name": "color/layer/01",
+            "type": "COLOR",
+            "description": "Primer nivel de elevación (tarjetas, paneles).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-01)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/10}",
+              "Dark Mode": "{Primitivos/color/gray/90}"
+            }
+          },
+          {
+            "name": "color/layer/02",
+            "type": "COLOR",
+            "description": "Segundo nivel de elevación.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-02)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/gray/80}"
+            }
+          },
+          {
+            "name": "color/layer/03",
+            "type": "COLOR",
+            "description": "Tercer nivel de elevación.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-03)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/10}",
+              "Dark Mode": "{Primitivos/color/gray/70}"
+            }
+          },
+          {
+            "name": "color/layer/hover/01",
+            "type": "COLOR",
+            "description": "Hover en layer.01.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-hover-01)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray-state/10}",
+              "Dark Mode": "{Primitivos/color/gray-state/90}"
+            }
+          },
+          {
+            "name": "color/layer/hover/02",
+            "type": "COLOR",
+            "description": "Hover en layer.02.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-hover-02)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray-state/10}",
+              "Dark Mode": "{Primitivos/color/gray-state/80}"
+            }
+          },
+          {
+            "name": "color/layer/hover/03",
+            "type": "COLOR",
+            "description": "Hover en layer.03.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-hover-03)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray-state/10}",
+              "Dark Mode": "{Primitivos/color/gray-state/70}"
+            }
+          },
+          {
+            "name": "color/layer/selected/01",
+            "type": "COLOR",
+            "description": "Selección en layer.01.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-selected-01)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/20}",
+              "Dark Mode": "{Primitivos/color/gray/80}"
+            }
+          },
+          {
+            "name": "color/layer/selected/02",
+            "type": "COLOR",
+            "description": "Selección en layer.02.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-selected-02)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/20}",
+              "Dark Mode": "{Primitivos/color/gray/70}"
+            }
+          },
+          {
+            "name": "color/layer/selected/03",
+            "type": "COLOR",
+            "description": "Selección en layer.03.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-layer-selected-03)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/20}",
+              "Dark Mode": "{Primitivos/color/gray/60}"
+            }
+          },
+          {
+            "name": "color/field/01",
+            "type": "COLOR",
+            "description": "Fondo de campos de formulario sobre background.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-field-01)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/10}",
+              "Dark Mode": "{Primitivos/color/gray/90}"
+            }
+          },
+          {
+            "name": "color/field/02",
+            "type": "COLOR",
+            "description": "Fondo de campos de formulario sobre layer.01.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-field-02)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/gray/80}"
+            }
+          },
+          {
+            "name": "color/field/hover/01",
+            "type": "COLOR",
+            "description": "Hover de field.01.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-field-hover-01)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray-state/10}",
+              "Dark Mode": "{Primitivos/color/gray-state/90}"
+            }
+          },
+          {
+            "name": "color/field/hover/02",
+            "type": "COLOR",
+            "description": "Hover de field.02.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-field-hover-02)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray-state/10}",
+              "Dark Mode": "{Primitivos/color/gray-state/80}"
+            }
+          },
+          {
+            "name": "color/border/subtle/00",
+            "type": "COLOR",
+            "description": "Divisor sutil sobre background (decorativo).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-subtle-00)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/20}",
+              "Dark Mode": "{Primitivos/color/gray/80}"
+            }
+          },
+          {
+            "name": "color/border/subtle/01",
+            "type": "COLOR",
+            "description": "Divisor sutil sobre layer.01 (decorativo).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-subtle-01)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/30}",
+              "Dark Mode": "{Primitivos/color/gray/70}"
+            }
+          },
+          {
+            "name": "color/border/subtle/02",
+            "type": "COLOR",
+            "description": "Divisor sutil sobre layer.02 (decorativo).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-subtle-02)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/20}",
+              "Dark Mode": "{Primitivos/color/gray/60}"
+            }
+          },
+          {
+            "name": "color/border/subtle/selected",
+            "type": "COLOR",
+            "description": "Divisor sutil de elemento seleccionado.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-subtle-selected)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/30}",
+              "Dark Mode": "{Primitivos/color/gray/60}"
+            }
+          },
+          {
+            "name": "color/border/strong/01",
+            "type": "COLOR",
+            "description": "Borde de control sobre background/layer.01 (≥3:1).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-strong-01)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/50}",
+              "Dark Mode": "{Primitivos/color/gray/60}"
+            }
+          },
+          {
+            "name": "color/border/strong/02",
+            "type": "COLOR",
+            "description": "Borde de control sobre layer.02 (≥3:1).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-strong-02)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/50}",
+              "Dark Mode": "{Primitivos/color/gray/50}"
+            }
+          },
+          {
+            "name": "color/border/strong/03",
+            "type": "COLOR",
+            "description": "Borde de control sobre layer.03 (≥3:1).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-strong-03)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/50}",
+              "Dark Mode": "{Primitivos/color/gray/40}"
+            }
+          },
+          {
+            "name": "color/border/interactive",
+            "type": "COLOR",
+            "description": "Borde de elemento interactivo o con foco de selección.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-interactive)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/60}",
+              "Dark Mode": "{Primitivos/color/blue/50}"
+            }
+          },
+          {
+            "name": "color/border/inverse",
+            "type": "COLOR",
+            "description": "Borde sobre superficies invertidas.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-inverse)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/100}",
+              "Dark Mode": "{Primitivos/color/gray/10}"
+            }
+          },
+          {
+            "name": "color/border/disabled",
+            "type": "COLOR",
+            "description": "Borde deshabilitado (exento de contraste).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-border-disabled)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/30}",
+              "Dark Mode": "{Primitivos/color/gray/70}"
+            }
+          },
+          {
+            "name": "color/text/primary",
+            "type": "COLOR",
+            "description": "Texto principal y cuerpo.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-primary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/100}",
+              "Dark Mode": "{Primitivos/color/gray/10}"
+            }
+          },
+          {
+            "name": "color/text/secondary",
+            "type": "COLOR",
+            "description": "Texto secundario y etiquetas.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-secondary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/70}",
+              "Dark Mode": "{Primitivos/color/gray/30}"
+            }
+          },
+          {
+            "name": "color/text/placeholder",
+            "type": "COLOR",
+            "description": "Texto de marcador de posición.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-placeholder)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/60}",
+              "Dark Mode": "{Primitivos/color/gray/40}"
+            }
+          },
+          {
+            "name": "color/text/helper",
+            "type": "COLOR",
+            "description": "Texto de ayuda de formularios.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-helper)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/60}",
+              "Dark Mode": "{Primitivos/color/gray/40}"
+            }
+          },
+          {
+            "name": "color/text/on-color",
+            "type": "COLOR",
+            "description": "Texto sobre fondos de color (botones, banners).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-on-color)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/white}"
+            }
+          },
+          {
+            "name": "color/text/on-color-disabled",
+            "type": "COLOR",
+            "description": "Texto sobre color en estado deshabilitado.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-on-color-disabled)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/50}",
+              "Dark Mode": "{Primitivos/color/gray/50}"
+            }
+          },
+          {
+            "name": "color/text/inverse",
+            "type": "COLOR",
+            "description": "Texto sobre background.inverse.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-inverse)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/gray/100}"
+            }
+          },
+          {
+            "name": "color/text/error",
+            "type": "COLOR",
+            "description": "Mensajes de error.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-error)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/red/60}",
+              "Dark Mode": "{Primitivos/color/red/40}"
+            }
+          },
+          {
+            "name": "color/text/disabled",
+            "type": "COLOR",
+            "description": "Texto deshabilitado (exento de contraste).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-disabled)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/40}",
+              "Dark Mode": "{Primitivos/color/gray/60}"
+            }
+          },
+          {
+            "name": "color/text/link/primary",
+            "type": "COLOR",
+            "description": "Enlace estándar.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-link-primary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/60}",
+              "Dark Mode": "{Primitivos/color/blue/40}"
+            }
+          },
+          {
+            "name": "color/text/link/primary-hover",
+            "type": "COLOR",
+            "description": "Enlace en hover.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-link-primary-hover)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/70}",
+              "Dark Mode": "{Primitivos/color/blue/30}"
+            }
+          },
+          {
+            "name": "color/text/link/secondary",
+            "type": "COLOR",
+            "description": "Enlace secundario.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-link-secondary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/70}",
+              "Dark Mode": "{Primitivos/color/blue/30}"
+            }
+          },
+          {
+            "name": "color/text/link/visited",
+            "type": "COLOR",
+            "description": "Enlace visitado.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-link-visited)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/purple/60}",
+              "Dark Mode": "{Primitivos/color/purple/40}"
+            }
+          },
+          {
+            "name": "color/text/link/inverse",
+            "type": "COLOR",
+            "description": "Enlace sobre superficie invertida.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-text-link-inverse)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/40}",
+              "Dark Mode": "{Primitivos/color/blue/60}"
+            }
+          },
+          {
+            "name": "color/icon/primary",
+            "type": "COLOR",
+            "description": "Icono principal.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-icon-primary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/100}",
+              "Dark Mode": "{Primitivos/color/gray/10}"
+            }
+          },
+          {
+            "name": "color/icon/secondary",
+            "type": "COLOR",
+            "description": "Icono secundario.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-icon-secondary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/70}",
+              "Dark Mode": "{Primitivos/color/gray/30}"
+            }
+          },
+          {
+            "name": "color/icon/interactive",
+            "type": "COLOR",
+            "description": "Icono interactivo.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-icon-interactive)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/60}",
+              "Dark Mode": "{Primitivos/color/blue/40}"
+            }
+          },
+          {
+            "name": "color/icon/on-color",
+            "type": "COLOR",
+            "description": "Icono sobre fondos de color.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-icon-on-color)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/white}"
+            }
+          },
+          {
+            "name": "color/icon/inverse",
+            "type": "COLOR",
+            "description": "Icono sobre superficie invertida.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-icon-inverse)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/gray/100}"
+            }
+          },
+          {
+            "name": "color/icon/disabled",
+            "type": "COLOR",
+            "description": "Icono deshabilitado (exento).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-icon-disabled)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/30}",
+              "Dark Mode": "{Primitivos/color/gray/60}"
+            }
+          },
+          {
+            "name": "color/interactive/primary",
+            "type": "COLOR",
+            "description": "Fondo de la acción primaria.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-primary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/60}",
+              "Dark Mode": "{Primitivos/color/blue/60}"
+            }
+          },
+          {
+            "name": "color/interactive/primary-hover",
+            "type": "COLOR",
+            "description": "Acción primaria en hover.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-primary-hover)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/70}",
+              "Dark Mode": "{Primitivos/color/blue/70}"
+            }
+          },
+          {
+            "name": "color/interactive/primary-active",
+            "type": "COLOR",
+            "description": "Acción primaria presionada.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-primary-active)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/80}",
+              "Dark Mode": "{Primitivos/color/blue/80}"
+            }
+          },
+          {
+            "name": "color/interactive/secondary",
+            "type": "COLOR",
+            "description": "Fondo de la acción secundaria.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-secondary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/80}",
+              "Dark Mode": "{Primitivos/color/gray/60}"
+            }
+          },
+          {
+            "name": "color/interactive/secondary-hover",
+            "type": "COLOR",
+            "description": "Acción secundaria en hover.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-secondary-hover)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/70}",
+              "Dark Mode": "{Primitivos/color/gray/70}"
+            }
+          },
+          {
+            "name": "color/interactive/secondary-active",
+            "type": "COLOR",
+            "description": "Acción secundaria presionada.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-secondary-active)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/60}",
+              "Dark Mode": "{Primitivos/color/gray/80}"
+            }
+          },
+          {
+            "name": "color/interactive/tertiary",
+            "type": "COLOR",
+            "description": "Borde y etiqueta de la acción terciaria.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-tertiary)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/60}",
+              "Dark Mode": "{Primitivos/color/blue/40}"
+            }
+          },
+          {
+            "name": "color/interactive/tertiary-hover",
+            "type": "COLOR",
+            "description": "Relleno de la acción terciaria en hover.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-tertiary-hover)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/60}",
+              "Dark Mode": "{Primitivos/color/blue/60}"
+            }
+          },
+          {
+            "name": "color/interactive/tertiary-active",
+            "type": "COLOR",
+            "description": "Relleno de la acción terciaria presionada.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-tertiary-active)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/80}",
+              "Dark Mode": "{Primitivos/color/blue/80}"
+            }
+          },
+          {
+            "name": "color/interactive/danger",
+            "type": "COLOR",
+            "description": "Fondo de acción destructiva.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-danger)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/red/60}",
+              "Dark Mode": "{Primitivos/color/red/60}"
+            }
+          },
+          {
+            "name": "color/interactive/danger-hover",
+            "type": "COLOR",
+            "description": "Acción destructiva en hover.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-danger-hover)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/red/70}",
+              "Dark Mode": "{Primitivos/color/red/70}"
+            }
+          },
+          {
+            "name": "color/interactive/danger-active",
+            "type": "COLOR",
+            "description": "Acción destructiva presionada.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-danger-active)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/red/80}",
+              "Dark Mode": "{Primitivos/color/red/80}"
+            }
+          },
+          {
+            "name": "color/interactive/disabled",
+            "type": "COLOR",
+            "description": "Fondo de acción deshabilitada (exento).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-interactive-disabled)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/30}",
+              "Dark Mode": "{Primitivos/color/gray/70}"
+            }
+          },
+          {
+            "name": "color/focus/default",
+            "type": "COLOR",
+            "description": "Anillo de foco (WCAG 2.4.7 / 2.4.11).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-focus-default)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/60}",
+              "Dark Mode": "{Primitivos/color/white}"
+            }
+          },
+          {
+            "name": "color/focus/inset",
+            "type": "COLOR",
+            "description": "Contorno interior del foco para separarlo del control.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-focus-inset)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/gray/100}"
+            }
+          },
+          {
+            "name": "color/focus/inverse",
+            "type": "COLOR",
+            "description": "Foco sobre superficies invertidas.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-focus-inverse)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/white}",
+              "Dark Mode": "{Primitivos/color/blue/60}"
+            }
+          },
+          {
+            "name": "color/support/error",
+            "type": "COLOR",
+            "description": "Indicador de error.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-support-error)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/red/60}",
+              "Dark Mode": "{Primitivos/color/red/50}"
+            }
+          },
+          {
+            "name": "color/support/success",
+            "type": "COLOR",
+            "description": "Indicador de éxito.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-support-success)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/green/60}",
+              "Dark Mode": "{Primitivos/color/green/40}"
+            }
+          },
+          {
+            "name": "color/support/warning",
+            "type": "COLOR",
+            "description": "Indicador de advertencia.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-support-warning)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/orange/60}",
+              "Dark Mode": "{Primitivos/color/yellow/30}"
+            }
+          },
+          {
+            "name": "color/support/info",
+            "type": "COLOR",
+            "description": "Indicador informativo.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-support-info)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/70}",
+              "Dark Mode": "{Primitivos/color/blue/50}"
+            }
+          },
+          {
+            "name": "color/support/error-subtle",
+            "type": "COLOR",
+            "description": "Fondo sutil de notificación de error.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-support-error-subtle)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/red/10}",
+              "Dark Mode": "{Primitivos/color/gray/90}"
+            }
+          },
+          {
+            "name": "color/support/success-subtle",
+            "type": "COLOR",
+            "description": "Fondo sutil de notificación de éxito.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-support-success-subtle)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/green/10}",
+              "Dark Mode": "{Primitivos/color/gray/90}"
+            }
+          },
+          {
+            "name": "color/support/warning-subtle",
+            "type": "COLOR",
+            "description": "Fondo sutil de notificación de advertencia.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-support-warning-subtle)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/yellow/10}",
+              "Dark Mode": "{Primitivos/color/gray/90}"
+            }
+          },
+          {
+            "name": "color/support/info-subtle",
+            "type": "COLOR",
+            "description": "Fondo sutil de notificación informativa.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-support-info-subtle)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/blue/10}",
+              "Dark Mode": "{Primitivos/color/gray/90}"
+            }
+          },
+          {
+            "name": "color/skeleton/background",
+            "type": "COLOR",
+            "description": "Fondo de skeleton loader.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-skeleton-background)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray-state/10}",
+              "Dark Mode": "{Primitivos/color/gray-state/90}"
+            }
+          },
+          {
+            "name": "color/skeleton/element",
+            "type": "COLOR",
+            "description": "Elemento animado del skeleton.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-skeleton-element)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/gray/30}",
+              "Dark Mode": "{Primitivos/color/gray/70}"
+            }
+          },
+          {
+            "name": "color/overlay/scrim",
+            "type": "COLOR",
+            "description": "Capa de fondo de modales.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-color-overlay-scrim)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/color/alpha/gray-100-50}",
+              "Dark Mode": "{Primitivos/color/alpha/black-70}"
+            }
+          },
+          {
+            "name": "spacing/inset/xs",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inset-xs)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/4}",
+              "Dark Mode": "{Primitivos/spacing/4}"
+            }
+          },
+          {
+            "name": "spacing/inset/sm",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inset-sm)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/8}",
+              "Dark Mode": "{Primitivos/spacing/8}"
+            }
+          },
+          {
+            "name": "spacing/inset/md",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inset-md)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/16}",
+              "Dark Mode": "{Primitivos/spacing/16}"
+            }
+          },
+          {
+            "name": "spacing/inset/lg",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inset-lg)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/24}",
+              "Dark Mode": "{Primitivos/spacing/24}"
+            }
+          },
+          {
+            "name": "spacing/inset/xl",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inset-xl)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/32}",
+              "Dark Mode": "{Primitivos/spacing/32}"
+            }
+          },
+          {
+            "name": "spacing/stack/xs",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-stack-xs)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/4}",
+              "Dark Mode": "{Primitivos/spacing/4}"
+            }
+          },
+          {
+            "name": "spacing/stack/sm",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-stack-sm)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/8}",
+              "Dark Mode": "{Primitivos/spacing/8}"
+            }
+          },
+          {
+            "name": "spacing/stack/md",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-stack-md)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/16}",
+              "Dark Mode": "{Primitivos/spacing/16}"
+            }
+          },
+          {
+            "name": "spacing/stack/lg",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-stack-lg)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/24}",
+              "Dark Mode": "{Primitivos/spacing/24}"
+            }
+          },
+          {
+            "name": "spacing/stack/xl",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-stack-xl)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/32}",
+              "Dark Mode": "{Primitivos/spacing/32}"
+            }
+          },
+          {
+            "name": "spacing/stack/2xl",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-stack-2xl)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/48}",
+              "Dark Mode": "{Primitivos/spacing/48}"
+            }
+          },
+          {
+            "name": "spacing/inline/xs",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inline-xs)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/4}",
+              "Dark Mode": "{Primitivos/spacing/4}"
+            }
+          },
+          {
+            "name": "spacing/inline/sm",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inline-sm)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/8}",
+              "Dark Mode": "{Primitivos/spacing/8}"
+            }
+          },
+          {
+            "name": "spacing/inline/md",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inline-md)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/16}",
+              "Dark Mode": "{Primitivos/spacing/16}"
+            }
+          },
+          {
+            "name": "spacing/inline/lg",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-inline-lg)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/24}",
+              "Dark Mode": "{Primitivos/spacing/24}"
+            }
+          },
+          {
+            "name": "spacing/layout/sm",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-layout-sm)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/16}",
+              "Dark Mode": "{Primitivos/spacing/16}"
+            }
+          },
+          {
+            "name": "spacing/layout/md",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-layout-md)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/32}",
+              "Dark Mode": "{Primitivos/spacing/32}"
+            }
+          },
+          {
+            "name": "spacing/layout/lg",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-layout-lg)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/48}",
+              "Dark Mode": "{Primitivos/spacing/48}"
+            }
+          },
+          {
+            "name": "spacing/layout/xl",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-layout-xl)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/64}",
+              "Dark Mode": "{Primitivos/spacing/64}"
+            }
+          },
+          {
+            "name": "spacing/layout/2xl",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-layout-2xl)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/96}",
+              "Dark Mode": "{Primitivos/spacing/96}"
+            }
+          },
+          {
+            "name": "spacing/layout/3xl",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-spacing-layout-3xl)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/spacing/128}",
+              "Dark Mode": "{Primitivos/spacing/128}"
+            }
+          },
+          {
+            "name": "radius/control",
+            "type": "FLOAT",
+            "description": "Botones, inputs, selects.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-radius-control)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/radius/none}",
+              "Dark Mode": "{Primitivos/radius/none}"
+            }
+          },
+          {
+            "name": "radius/container",
+            "type": "FLOAT",
+            "description": "Tarjetas, modales, paneles.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-radius-container)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/radius/none}",
+              "Dark Mode": "{Primitivos/radius/none}"
+            }
+          },
+          {
+            "name": "radius/subtle",
+            "type": "FLOAT",
+            "description": "Tooltips, tags, foco redondeado.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-radius-subtle)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/radius/sm}",
+              "Dark Mode": "{Primitivos/radius/sm}"
+            }
+          },
+          {
+            "name": "radius/round",
+            "type": "FLOAT",
+            "description": "Avatares e indicadores circulares.",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-radius-round)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/radius/full}",
+              "Dark Mode": "{Primitivos/radius/full}"
+            }
+          },
+          {
+            "name": "border-width/default",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-border-width-default)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/border-width/thin}",
+              "Dark Mode": "{Primitivos/border-width/thin}"
+            }
+          },
+          {
+            "name": "border-width/emphasis",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-border-width-emphasis)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/border-width/medium}",
+              "Dark Mode": "{Primitivos/border-width/medium}"
+            }
+          },
+          {
+            "name": "border-width/focus",
+            "type": "FLOAT",
+            "description": "Grosor del anillo de foco (≥2px).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-border-width-focus)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/border-width/medium}",
+              "Dark Mode": "{Primitivos/border-width/medium}"
+            }
+          },
+          {
+            "name": "size/control/sm",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-control-sm)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/32}",
+              "Dark Mode": "{Primitivos/sizing/32}"
+            }
+          },
+          {
+            "name": "size/control/md",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-control-md)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/40}",
+              "Dark Mode": "{Primitivos/sizing/40}"
+            }
+          },
+          {
+            "name": "size/control/lg",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-control-lg)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/48}",
+              "Dark Mode": "{Primitivos/sizing/48}"
+            }
+          },
+          {
+            "name": "size/control/xl",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-control-xl)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/64}",
+              "Dark Mode": "{Primitivos/sizing/64}"
+            }
+          },
+          {
+            "name": "size/icon/sm",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-icon-sm)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/16}",
+              "Dark Mode": "{Primitivos/sizing/16}"
+            }
+          },
+          {
+            "name": "size/icon/md",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-icon-md)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/20}",
+              "Dark Mode": "{Primitivos/sizing/20}"
+            }
+          },
+          {
+            "name": "size/icon/lg",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-icon-lg)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/24}",
+              "Dark Mode": "{Primitivos/sizing/24}"
+            }
+          },
+          {
+            "name": "size/icon/xl",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-icon-xl)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/32}",
+              "Dark Mode": "{Primitivos/sizing/32}"
+            }
+          },
+          {
+            "name": "size/touch-target/min",
+            "type": "FLOAT",
+            "description": "Mínimo WCAG 2.2 AA (2.5.8).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-touch-target-min)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/24}",
+              "Dark Mode": "{Primitivos/sizing/24}"
+            }
+          },
+          {
+            "name": "size/touch-target/comfortable",
+            "type": "FLOAT",
+            "description": "Recomendado WCAG 2.2 AAA (2.5.5).",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-size-touch-target-comfortable)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/sizing/44}",
+              "Dark Mode": "{Primitivos/sizing/44}"
+            }
+          },
+          {
+            "name": "z-index/header",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-header)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/z-index/header}",
+              "Dark Mode": "{Primitivos/z-index/header}"
+            }
+          },
+          {
+            "name": "z-index/dropdown",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-dropdown)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/z-index/dropdown}",
+              "Dark Mode": "{Primitivos/z-index/dropdown}"
+            }
+          },
+          {
+            "name": "z-index/overlay",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-overlay)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/z-index/overlay}",
+              "Dark Mode": "{Primitivos/z-index/overlay}"
+            }
+          },
+          {
+            "name": "z-index/modal",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-modal)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/z-index/modal}",
+              "Dark Mode": "{Primitivos/z-index/modal}"
+            }
+          },
+          {
+            "name": "z-index/toast",
+            "type": "FLOAT",
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--ds-z-index-toast)"
+            },
+            "valuesByMode": {
+              "Light Mode": "{Primitivos/z-index/toast}",
+              "Dark Mode": "{Primitivos/z-index/toast}"
+            }
+          }
+        ]
+      }
+    ]
+  }
