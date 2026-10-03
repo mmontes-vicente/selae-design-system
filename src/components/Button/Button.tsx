@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-// Arquitectura de Tipos Estricta Estilo IBM Carbon
+// Arquitectura de Tipos Estricta de SELAE
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   kind?: 'primary' | 'secondary' | 'danger' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
@@ -9,8 +9,8 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 }
 
 /**
- * Componente Button Polimórfico y Accesible para SELAE
- * Basado estrictamente en los tokens de IBM Carbon v11
+ * Componente Button Polimórfico y Accesible
+ * Identidad visual exclusiva de SELAE
  */
 export const Button: React.FC<ButtonProps> = ({
   kind = 'primary',
@@ -21,11 +21,11 @@ export const Button: React.FC<ButtonProps> = ({
   disabled,
   ...props
 }) => {
-  // Construcción de clases CSS semánticas normativas de Carbon
-  const baseClass = 'cds-btn';
-  const kindClass = `cds-btn--${kind}`;
-  const sizeClass = `cds-btn--${size}`;
-  const expressiveClass = isExpressive ? 'cds-btn--expressive' : '';
+  // Prefijo unificado de marca SELAE
+  const baseClass = 'selae-btn';
+  const kindClass = `selae-btn--${kind}`;
+  const sizeClass = `selae-btn--${size}`;
+  const expressiveClass = isExpressive ? 'selae-btn--expressive' : '';
   
   const computedClasses = [
     baseClass,
@@ -40,11 +40,10 @@ export const Button: React.FC<ButtonProps> = ({
       className={computedClasses}
       disabled={disabled}
       aria-disabled={disabled ? 'true' : undefined}
-      // Anillo de enfoque y navegación por teclado nativa
       tabIndex={disabled ? -1 : 0}
       {...props}
     >
-      <span className="cds-btn__text">{children}</span>
+      <span className="selae-btn__text">{children}</span>
     </button>
   );
 };
