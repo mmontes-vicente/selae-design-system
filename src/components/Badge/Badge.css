@@ -4,20 +4,61 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-weight: 500;
-  border-radius: 0px; /* Rigidez total de la marca SELAE */
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  border-radius: var(--ds-radius-control, 0px);
+  font-family: var(--ds-font-family-sans, -apple-system, BlinkMacSystemFont, sans-serif);
+  font-weight: var(--ds-font-weight-medium, 500);
+  line-height: 1;
   white-space: nowrap;
+  vertical-align: middle;
 }
 
-/* Tipos cromáticos semánticos */
-.selae-badge--info { background-color: #e0e0e0; color: #161616; }
-.selae-badge--success { background-color: #def2e6; color: #0d4f1d; }
-.selae-badge--error { background-color: #fbebeb; color: #740e14; }
-.selae-badge--warning { background-color: #fef3d6; color: #543b03; }
+.selae-badge--success {
+  background-color: var(--ds-color-support-success-subtle);
+  color: var(--ds-color-support-success);
+}
 
-/* Escala métrica simétrica */
-.selae-badge--xl { height: 32px; padding: 0 12px; font-size: 14px; }
-.selae-badge--l { height: 28px; padding: 0 10px; font-size: 13px; }
-.selae-badge--m { height: 24px; padding: 0 8px; font-size: 12px; }
-.selae-badge--xs { height: 20px; padding: 0 6px; font-size: 11px; }
+.selae-badge--error {
+  background-color: var(--ds-color-support-error-subtle);
+  color: var(--ds-color-support-error);
+}
+
+.selae-badge--warning {
+  background-color: var(--ds-color-support-warning-subtle);
+  color: var(--ds-color-support-warning);
+}
+
+.selae-badge--info {
+  background-color: var(--ds-color-support-info-subtle);
+  color: var(--ds-color-support-info);
+}
+
+.selae-badge--xl {
+  height: var(--ds-sizing-32, 32px);
+  min-height: var(--ds-sizing-32, 32px);
+  padding: 0 var(--ds-spacing-12, 12px);
+  font-size: var(--ds-font-size-14, 14px);
+}
+
+.selae-badge--l {
+  height: 28px;
+  min-height: 28px;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+.selae-badge--m {
+  height: var(--ds-sizing-24, 24px);
+  min-height: var(--ds-sizing-24, 24px);
+  padding: 0 var(--ds-spacing-8, 8px);
+  font-size: var(--ds-font-size-12, 12px);
+}
+
+.selae-badge--xs {
+  height: var(--ds-sizing-20, 20px);
+  min-height: var(--ds-sizing-20, 20px);
+  padding: 0 6px;
+  font-size: 11px;
+}

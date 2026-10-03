@@ -1,0 +1,21 @@
+:root {
+  --ds-radius-control: 0px;
+  --ds-font-family-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --ds-font-weight-medium: 500;
+  --ds-font-size-12: 12px;
+  --ds-font-size-14: 14px;
+  --ds-sizing-20: 20px;
+  --ds-sizing-24: 24px;
+  --ds-sizing-32: 32px;
+  --ds-spacing-8: 8px;
+  --ds-spacing-12: 12px;
+  --ds-color-text-primary: #161616;
+  --ds-color-support-success: #198038;
+  --ds-color-support-success-subtle: #defbe6;
+  --ds-color-support-error: #da1e28;
+  --ds-color-support-error-subtle: #fff1f1;
+  --ds-color-support-warning: #ba4e00;
+  --ds-color-support-warning-subtle: #fcf4d6;
+  --ds-color-support-info: #0043ce;
+  --ds-color-support-info-subtle: #edf5ff;
+}
