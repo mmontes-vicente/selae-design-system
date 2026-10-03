@@ -1,0 +1,12 @@
+/* Escalas de Medida Simétricas de la Marca SELAE para Checkbox */
+.selae-checkbox-wrapper--xl .selae-checkbox-custom { width: 22px; height: 22px; }
+.selae-checkbox-wrapper--xl .selae-checkbox-label { font-size: 16px; }
+
+.selae-checkbox-wrapper--l .selae-checkbox-custom { width: 18px; height: 18px; }
+.selae-checkbox-wrapper--l .selae-checkbox-label { font-size: 14px; }
+
+.selae-checkbox-wrapper--m .selae-checkbox-custom { width: 16px; height: 16px; }
+.selae-checkbox-wrapper--m .selae-checkbox-label { font-size: 13px; }
+
+.selae-checkbox-wrapper--xs .selae-checkbox-custom { width: 14px; height: 14px; }
+.selae-checkbox-wrapper--xs .selae-checkbox-label { font-size: 12px; }
